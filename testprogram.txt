@@ -1,0 +1,10 @@
+WINDMILL myWindmill {
+  DISPLAY 42
+  x = 10
+  y = 20
+  z = x BREEZE y
+  result = z TWIRL (30 SWIRL 2)
+  result MATCHES 300
+
+  z MATCHES 30
+}
