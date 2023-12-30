@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\openjdk-17.0.2_windows-x64_bin\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\shred\AppData\Local\Temp\surefire2157631236769832380\surefirebooter-20231229180836564_3.jar C:\Users\shred\AppData\Local\Temp\surefire2157631236769832380 2023-12-29T18-08-36_353-jvmRun1 surefire-20231229180836564_1tmp surefire_0-20231229180836564_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\shred\AppData\Local\Temp\surefire9122276091664197995\surefirebooter-20231229204440208_3.jar C:\Users\shred\AppData\Local\Temp\surefire9122276091664197995 2023-12-29T20-44-40_030-jvmRun1 surefire-20231229204440208_1tmp surefire_0-20231229204440208_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\shred\Documents\GitHub\Language-development\target\test-classes;C:\Users\shred\Documents\GitHub\Language-development\target\classes;C:\Users\shred\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\shred\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\shred\AppData\Local\Temp\surefire2157631236769832380\surefirebooter-20231229180836564_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shred\AppData\Local\Temp\surefire9122276091664197995\surefirebooter-20231229204440208_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-86"/>

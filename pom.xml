@@ -44,6 +44,10 @@
                         <goals>
                             <goal>antlr4</goal>
                         </goals>
+                        <configuration>
+                            <!-- Output directory set to src/main/java -->
+                            <outputDirectory>${project.basedir}/src/main/java/com/language/custom/antlr4</outputDirectory>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
