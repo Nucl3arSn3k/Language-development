@@ -1,0 +1,25 @@
+ProgramNode: Represents the program rule. Contains a list of WindmillStatementNodes.
+
+WindmillStatementNode: Corresponds to the windmill_statement rule. Holds an identifier (name of the windmill) and a list of StatementNodes (representing the statements within the windmill block).
+
+StatementNode: An abstract class or interface for different types of statements. It could be extended or implemented by AssignmentStatementNode, EquivalenceStatementNode, PrintStatementNode, and FunctionCallNode.
+
+AssignmentStatementNode: For assignment_statement. Includes an IdentifierNode for the variable name and an ExpressionNode for the expression assigned.
+
+EquivalenceStatementNode: Represents equivalence_statement. Consists of two ExpressionNodes representing each side of the equivalence.
+
+PrintStatementNode: Pertains to print_statement. Contains an ExpressionNode representing the expression to be printed.
+
+FunctionCallNode: For function_call. Comprises an IdentifierNode for the function name and a list of ExpressionNodes for arguments.
+
+ExpressionNode: An abstract class or interface for expressions, which can be extended by classes like BinaryExpressionNode, UnaryExpressionNode, LiteralNode, IdentifierNode, etc.
+
+BinaryExpressionNode: For expressions involving binary operators (BREEZE, ZEPHYR, TWIRL, SWIRL). It should have two ExpressionNodes for operands and some representation of the operator.
+
+IdentifierNode: Represents an identifier. Stores the variable or function name.
+
+LiteralNode: For literal values (like integers).
+
+UnaryExpressionNode: If needed, for expressions involving unary operators or single terms.
+
+Each node class should encapsulate the relevant data extracted from your ANTLR parse tree. For instance, BinaryExpressionNode might include fields for the left and right operands and the specific operation (like BREEZE or ZEPHYR), whereas FunctionCallNode would contain the function's name and a list of argument expressions.
